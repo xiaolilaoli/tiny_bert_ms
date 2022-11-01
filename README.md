@@ -3,8 +3,8 @@ tiny_bert on mindspore
 
 介绍了Bert与TinyBert 并在mindspore上运行。
 
-ipynb文件可以端到端运行， 但需要提前下载好预训练模型。 在bert文件夹下，缺少由tensorflow转换来的模型。
-ms2tf包含了转换的代码，具体模型下载转换操作见tinybert.ipynb的模型准备部分。
+ipynb文件可以端到端运行， 但需要提前下载好预训练模型和训练数据。 在bert文件夹下，缺少由tensorflow转换来的模型。
+ms2tf包含了转换的代码，具体模型下载转换和数据下载操作见tinybert.ipynb的模型准备部分。
 
 下面是路径结构
 
