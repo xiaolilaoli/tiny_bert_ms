@@ -3,6 +3,9 @@ tiny_bert on mindspore
 
 介绍了Bert与TinyBert 并在mindspore上运行。
 
+
+(注意项目代码目前是在Ascend平台运行的代码， 如果需要在GPU运行， 则需要将config下的文件中device_target: "Ascend" 改为后面的设备改为 GPU)
+
 ipynb文件可以端到端运行， 但需要提前下载好预训练模型和训练数据。 在bert文件夹下，缺少由tensorflow转换来的模型。
 ms2tf包含了转换的代码，具体模型下载转换和数据下载操作见tinybert.ipynb的模型准备部分。
 
