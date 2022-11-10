@@ -22,3 +22,14 @@ ms2tf包含了转换的代码，具体模型下载转换和数据下载操作见
 
 
 ```
+
+## citing
+### BibTex
+
+
+@article{jiao2019tinybert,
+  title={Tinybert: Distilling bert for natural language understanding},
+  author={Jiao, Xiaoqi and Yin, Yichun and Shang, Lifeng and Jiang, Xin and Chen, Xiao and Li, Linlin and Wang, Fang and Liu, Qun},
+  journal={arXiv preprint arXiv:1909.10351},
+  year={2019}
+}
