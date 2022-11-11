@@ -42,7 +42,7 @@ file_name: "tinybert"
 file_format: "MINDIR"
 num_labels: 2
 phase1_cfg:
-    batch_size: 32
+    batch_size: 256
     loss_scale_value: 256
     scale_factor: 2
     scale_window: 50
@@ -56,7 +56,7 @@ phase1_cfg:
             decay_filter: ['layernorm', 'bias']
 
 phase2_cfg:
-    batch_size: 32
+    batch_size: 256
     loss_scale_value: 65536
     scale_factor: 2
     scale_window: 50
